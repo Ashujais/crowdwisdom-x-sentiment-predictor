@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+*.pem
+*.key
+
+# Temporary / Scratch
+*.tmp
+*.log
+scratch/
+gdoc_*.txt
+gdoc_*.html
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+
+# OS
+.DS_Store
+Thumbs.db
